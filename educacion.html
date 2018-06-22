@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <svg height="140" width="200">
+        <image xlink:href="drawing.svg" width="200px" height="150px">logo</image>
+      </svg>
+      <h1>Resume</h1>
+      <h2>Sebastian Sandor</h2>
+      <h3>Nacido en Caracas, Venezuela</h3>
+      <h3>10 de Marzo de 1993</h3>
+      <p>
+        <a href="index.html">Inicio</a> /
+        Educacion /
+        <a href="experiencia.html">Experiencia</a>
+      </p>
+    </header>
+
+    <h2>Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Años</th>
+          <th>Institución</th>
+          <th>Curso</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dos</td>
+          <td>Becker College</td>
+          <td>Interactive Media Design</td>
+          <td>Worcester. Massachusetts. USA</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2.5</td>
+          <td>Northeastern University</td>
+          <td>Mechanical Engineering</td>
+          <td>Boston. Massachusetts. USA</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+    <form name="Educaion"  autocomplete="on" >
+      <h2>Agregar Estudios</h2>
+      <label for="date"><b>Año:</b></label>
+      <select name="Year Range">'
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+      </select> <br>
+      <label for="institution"><b>Institucion:</b></label>
+      <input type="text" id="institution"> <br>
+      <label for="place"><b>Lugar:</b></label>
+      <input type="text" id="place"> <br>
+      <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <footer>
+      <h3>Contacto</h3>
+      <b>Correo:</b> ssandorh@gmail.com <br>
+      <b>Telef:</b> +(507) 6576-7940 <br>
+      <b>Portfolio</b> <a href="https://www.sebastiansandor.com/" target="_blank">https://www.sebastiansandor.com/</a>
+    </footer>
+  </body>
+</html>
